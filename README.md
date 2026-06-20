@@ -2,10 +2,29 @@
 
 Bachelor End Project (BEP) at Eindhoven University of Technology and Tilburg University. Cross-domain deception detection: A Comparison of Text Representation Methods in Cross-Domain Deception Detection.
 
-## Research questions
+## Abstract
 
-**RQ1** — How well do deception detection models generalise across domains under LODO evaluation?  
-**RQ2** — How does domain dissimilarity predict transfer difficulty?
+**Background.** Automated deception detection generalises poorly across text domains, and growing
+evidence suggests there is no universal linguistic fingerprint for deception. It remains unclear
+whether this cross-domain gap is driven by the choice of text representation, by structural properties
+of the domains themselves, or by both.
+**Methods.** Three text representations: TF-IDF, FastText, and Sentence-BERT were evaluated
+under a leave-one-domain-out (LODO) protocol across 25 deception domains drawn from a unified
+corpus of 71,512 documents. For each fold, seven domain-level features were related to transfer
+difficulty (1 − AUC) via Pearson correlation and regression.
+**Results. **On the full sample, TF-IDF outperformed both dense representations on ROC-AUC
+(vs. FastText p = .002, d = +0.69; vs. SBERT p = .005, d = +0.66), but this advantage did not
+survive a sensitivity analysis restricted to the 15 low-transfer folds, indicating it was concentrated
+in domains whose siblings appear in training. FastText and SBERT were not reliably distinguished.
+SBERT centroid distance was the strongest univariate predictor of transfer difficulty on the full
+sample (r = +.48, p = .016), but this correlation reversed sign on the low-transfer folds (r = −.46).
+No feature predicted difficulty once domain leakage was controlled for, and the joint regression
+failed to generalise (LOO-CV R2 = −.47).
+**Conclusions.** Frozen general-purpose sentence encoders should not be treated as a default upgrade
+over lexical baselines, and no domain-dissimilarity measure can yet be recommended as a label-free
+indicator of transfer difficulty. The dominant factor is whether a target domain carries a lexically
+stable deceptive signal at all. Establishing this on genuinely novel domains will require larger,
+leakage-free evaluation sets.
 
 ---
 
