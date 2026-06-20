@@ -102,4 +102,4 @@ Results CSVs live in `results/`. The main files are:
 
 ## Author
 
-Hugo Nooij — 2053535 - Bachelor End Project, 2025–2026
+Hugo Nooij (2053535) - Bachelor End Project, 2025–2026
