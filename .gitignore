@@ -1,0 +1,22 @@
+# Data (large files — do not commit)
+data/
+
+# Cache directories
+.tfidf_cache/
+.tfidf_cache_no_job/
+.fasttext_cache/
+.deberta_cache/
+.sbert_cache_all_mpnet_base_v2/
+.sensitivity_cache/
+
+# Personal / working documents
+docs/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/

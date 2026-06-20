@@ -1,0 +1,15 @@
+model,feature,beta_std,r2_insample,r2_loo
+OLS,vocab_jaccard,0.0278,0.3114,-0.4725
+OLS,vocab_coverage,0.0266,0.3114,-0.4725
+OLS,js_divergence,0.0295,0.3114,-0.4725
+OLS,tfidf_cosine_dist,-0.0224,0.3114,-0.4725
+OLS,sbert_cosine_dist,0.0445,0.3114,-0.4725
+OLS,mean_text_length,-0.0195,0.3114,-0.4725
+OLS,pct_deceptive,-0.0203,0.3114,-0.4725
+Ridge(a=0.1),vocab_jaccard,0.0248,0.3114,-0.4281
+Ridge(a=0.1),vocab_coverage,0.0258,0.3114,-0.4281
+Ridge(a=0.1),js_divergence,0.027,0.3114,-0.4281
+Ridge(a=0.1),tfidf_cosine_dist,-0.0218,0.3114,-0.4281
+Ridge(a=0.1),sbert_cosine_dist,0.0442,0.3114,-0.4281
+Ridge(a=0.1),mean_text_length,-0.0193,0.3114,-0.4281
+Ridge(a=0.1),pct_deceptive,-0.0197,0.3114,-0.4281

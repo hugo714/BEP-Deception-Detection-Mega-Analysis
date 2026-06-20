@@ -1,0 +1,2889 @@
+{
+  "corpus_summary": {
+    "n_total": 307912,
+    "n_deceptive": 127850,
+    "n_truthful": 180062,
+    "frac_deceptive": 0.4152,
+    "n_domains": 28,
+    "n_datasets": 28,
+    "balanced_domains": 18,
+    "imbalanced_domains": 10,
+    "text_length_corpus": {
+      "mean": 280.19,
+      "median": 141.0,
+      "std": 586.67,
+      "min": 1,
+      "max": 101984
+    },
+    "smallest_domain": {
+      "name": "real-life trial",
+      "n": 121
+    },
+    "largest_domain": {
+      "name": "zeng et al 2022 fake news",
+      "n": 62101
+    }
+  },
+  "domain_stats": {
+    "MU3D": {
+      "n_total": 320,
+      "n_deceptive": 160,
+      "n_truthful": 160,
+      "frac_deceptive": 0.5,
+      "class_balance": "balanced",
+      "text_length": {
+        "mean": 106.69,
+        "median": 108.0,
+        "std": 23.44,
+        "min": 46,
+        "max": 160,
+        "p25": 88.75,
+        "p75": 124.0
+      },
+      "datasets": [
+        "MU3D"
+      ],
+      "n_datasets": 1
+    },
+    "bluff": {
+      "n_total": 753,
+      "n_deceptive": 502,
+      "n_truthful": 251,
+      "frac_deceptive": 0.6667,
+      "class_balance": "imbalanced",
+      "text_length": {
+        "mean": 195.23,
+        "median": 189.0,
+        "std": 49.01,
+        "min": 43,
+        "max": 383,
+        "p25": 161.0,
+        "p75": 227.0
+      },
+      "datasets": [
+        "bluff"
+      ],
+      "n_datasets": 1
+    },
+    "boulder lies and truth": {
+      "n_total": 1492,
+      "n_deceptive": 439,
+      "n_truthful": 1053,
+      "frac_deceptive": 0.2942,
+      "class_balance": "imbalanced",
+      "text_length": {
+        "mean": 101.41,
+        "median": 88.0,
+        "std": 58.99,
+        "min": 16,
+        "max": 551,
+        "p25": 66.0,
+        "p75": 122.0
+      },
+      "datasets": [
+        "boulder lies and truth"
+      ],
+      "n_datasets": 1
+    },
+    "box of lies": {
+      "n_total": 1067,
+      "n_deceptive": 882,
+      "n_truthful": 185,
+      "frac_deceptive": 0.8266,
+      "class_balance": "imbalanced",
+      "text_length": {
+        "mean": 7.79,
+        "median": 5.0,
+        "std": 8.98,
+        "min": 1,
+        "max": 79,
+        "p25": 2.0,
+        "p75": 9.0
+      },
+      "datasets": [
+        "box of lies"
+      ],
+      "n_datasets": 1
+    },
+    "cross cultural deception": {
+      "n_total": 600,
+      "n_deceptive": 300,
+      "n_truthful": 300,
+      "frac_deceptive": 0.5,
+      "class_balance": "balanced",
+      "text_length": {
+        "mean": 71.04,
+        "median": 65.0,
+        "std": 31.23,
+        "min": 16,
+        "max": 226,
+        "p25": 51.0,
+        "p75": 84.0
+      },
+      "datasets": [
+        "cross cultural deception"
+      ],
+      "n_datasets": 1
+    },
+    "deceptive opinion spam": {
+      "n_total": 800,
+      "n_deceptive": 400,
+      "n_truthful": 400,
+      "frac_deceptive": 0.5,
+      "class_balance": "balanced",
+      "text_length": {
+        "mean": 119.44,
+        "median": 105.0,
+        "std": 64.68,
+        "min": 25,
+        "max": 425,
+        "p25": 75.75,
+        "p75": 145.25
+      },
+      "datasets": [
+        "deceptive opinion spam"
+      ],
+      "n_datasets": 1
+    },
+    "derev": {
+      "n_total": 4487,
+      "n_deceptive": 1784,
+      "n_truthful": 2703,
+      "frac_deceptive": 0.3976,
+      "class_balance": "imbalanced",
+      "text_length": {
+        "mean": 151.43,
+        "median": 101.0,
+        "std": 170.38,
+        "min": 1,
+        "max": 3259,
+        "p25": 56.0,
+        "p75": 182.0
+      },
+      "datasets": [
+        "derev"
+      ],
+      "n_datasets": 1
+    },
+    "fake job postings": {
+      "n_total": 17880,
+      "n_deceptive": 866,
+      "n_truthful": 17014,
+      "frac_deceptive": 0.0484,
+      "class_balance": "imbalanced",
+      "text_length": {
+        "mean": 374.79,
+        "median": 349.0,
+        "std": 207.61,
+        "min": 2,
+        "max": 2118,
+        "p25": 229.0,
+        "p75": 492.0
+      },
+      "datasets": [
+        "fake job postings"
+      ],
+      "n_datasets": 1
+    },
+    "hippocorpus": {
+      "n_total": 6854,
+      "n_deceptive": 2756,
+      "n_truthful": 4098,
+      "frac_deceptive": 0.4021,
+      "class_balance": "balanced",
+      "text_length": {
+        "mean": 262.62,
+        "median": 249.0,
+        "std": 88.23,
+        "min": 110,
+        "max": 619,
+        "p25": 200.0,
+        "p75": 311.0
+      },
+      "datasets": [
+        "hippocorpus"
+      ],
+      "n_datasets": 1
+    },
+    "li et al 2015 doctor": {
+      "n_total": 556,
+      "n_deceptive": 356,
+      "n_truthful": 200,
+      "frac_deceptive": 0.6403,
+      "class_balance": "imbalanced",
+      "text_length": {
+        "mean": 100.14,
+        "median": 88.5,
+        "std": 46.97,
+        "min": 24,
+        "max": 372,
+        "p25": 66.0,
+        "p75": 125.0
+      },
+      "datasets": [
+        "li et al 2015 doctor"
+      ],
+      "n_datasets": 1
+    },
+    "li et al 2015 hotel": {
+      "n_total": 1880,
+      "n_deceptive": 1080,
+      "n_truthful": 800,
+      "frac_deceptive": 0.5745,
+      "class_balance": "balanced",
+      "text_length": {
+        "mean": 138.2,
+        "median": 118.0,
+        "std": 86.07,
+        "min": 5,
+        "max": 784,
+        "p25": 79.0,
+        "p75": 173.0
+      },
+      "datasets": [
+        "li et al 2015 hotel"
+      ],
+      "n_datasets": 1
+    },
+    "li et al 2015 restaurant": {
+      "n_total": 400,
+      "n_deceptive": 200,
+      "n_truthful": 200,
+      "frac_deceptive": 0.5,
+      "class_balance": "balanced",
+      "text_length": {
+        "mean": 134.26,
+        "median": 117.0,
+        "std": 81.24,
+        "min": 27,
+        "max": 580,
+        "p25": 76.75,
+        "p75": 168.25
+      },
+      "datasets": [
+        "li et al 2015 restaurant"
+      ],
+      "n_datasets": 1
+    },
+    "nazario trec 2007 email spam": {
+      "n_total": 53668,
+      "n_deceptive": 29923,
+      "n_truthful": 23745,
+      "frac_deceptive": 0.5576,
+      "class_balance": "balanced",
+      "text_length": {
+        "mean": 271.38,
+        "median": 153.0,
+        "std": 659.0,
+        "min": 1,
+        "max": 101984,
+        "p25": 87.0,
+        "p75": 304.0
+      },
+      "datasets": [
+        "nazario trec 2007 email spam"
+      ],
+      "n_datasets": 1
+    },
+    "negative deceptive opinion spam": {
+      "n_total": 800,
+      "n_deceptive": 400,
+      "n_truthful": 400,
+      "frac_deceptive": 0.5,
+      "class_balance": "balanced",
+      "text_length": {
+        "mean": 178.11,
+        "median": 159.0,
+        "std": 96.65,
+        "min": 32,
+        "max": 784,
+        "p25": 113.0,
+        "p75": 221.25
+      },
+      "datasets": [
+        "negative deceptive opinion spam"
+      ],
+      "n_datasets": 1
+    },
+    "open domain": {
+      "n_total": 7168,
+      "n_deceptive": 3584,
+      "n_truthful": 3584,
+      "frac_deceptive": 0.5,
+      "class_balance": "balanced",
+      "text_length": {
+        "mean": 8.16,
+        "median": 7.0,
+        "std": 4.82,
+        "min": 2,
+        "max": 54,
+        "p25": 5.0,
+        "p75": 10.0
+      },
+      "datasets": [
+        "open domain"
+      ],
+      "n_datasets": 1
+    },
+    "pops": {
+      "n_total": 400,
+      "n_deceptive": 400,
+      "n_truthful": 0,
+      "frac_deceptive": 1.0,
+      "class_balance": "imbalanced",
+      "text_length": {
+        "mean": 114.94,
+        "median": 105.0,
+        "std": 53.04,
+        "min": 29,
+        "max": 444,
+        "p25": 82.0,
+        "p75": 134.0
+      },
+      "datasets": [
+        "pops"
+      ],
+      "n_datasets": 1
+    },
+    "real-life trial": {
+      "n_total": 121,
+      "n_deceptive": 61,
+      "n_truthful": 60,
+      "frac_deceptive": 0.5041,
+      "class_balance": "balanced",
+      "text_length": {
+        "mean": 66.31,
+        "median": 59.0,
+        "std": 37.56,
+        "min": 8,
+        "max": 221,
+        "p25": 42.0,
+        "p75": 81.0
+      },
+      "datasets": [
+        "real-life trial"
+      ],
+      "n_datasets": 1
+    },
+    "stapel science fraud": {
+      "n_total": 23447,
+      "n_deceptive": 6357,
+      "n_truthful": 17090,
+      "frac_deceptive": 0.2711,
+      "class_balance": "imbalanced",
+      "text_length": {
+        "mean": 16.31,
+        "median": 10.0,
+        "std": 35.57,
+        "min": 1,
+        "max": 2231,
+        "p25": 9.0,
+        "p75": 12.0
+      },
+      "datasets": [
+        "stapel science fraud"
+      ],
+      "n_datasets": 1
+    },
+    "stony brook opinions": {
+      "n_total": 1600,
+      "n_deceptive": 800,
+      "n_truthful": 800,
+      "frac_deceptive": 0.5,
+      "class_balance": "balanced",
+      "text_length": {
+        "mean": 136.48,
+        "median": 121.0,
+        "std": 46.54,
+        "min": 99,
+        "max": 582,
+        "p25": 108.0,
+        "p75": 146.0
+      },
+      "datasets": [
+        "stony brook opinions"
+      ],
+      "n_datasets": 1
+    },
+    "stony brook reviews": {
+      "n_total": 1000,
+      "n_deceptive": 500,
+      "n_truthful": 500,
+      "frac_deceptive": 0.5,
+      "class_balance": "balanced",
+      "text_length": {
+        "mean": 120.06,
+        "median": 111.0,
+        "std": 26.25,
+        "min": 77,
+        "max": 346,
+        "p25": 104.0,
+        "p75": 126.0
+      },
+      "datasets": [
+        "stony brook reviews"
+      ],
+      "n_datasets": 1
+    },
+    "trec 2005 email spam": {
+      "n_total": 55075,
+      "n_deceptive": 24685,
+      "n_truthful": 30390,
+      "frac_deceptive": 0.4482,
+      "class_balance": "balanced",
+      "text_length": {
+        "mean": 299.12,
+        "median": 122.0,
+        "std": 828.75,
+        "min": 1,
+        "max": 55725,
+        "p25": 50.0,
+        "p75": 295.0
+      },
+      "datasets": [
+        "trec 2005 email spam"
+      ],
+      "n_datasets": 1
+    },
+    "tripadvisor deceptive opinion": {
+      "n_total": 1600,
+      "n_deceptive": 800,
+      "n_truthful": 800,
+      "frac_deceptive": 0.5,
+      "class_balance": "balanced",
+      "text_length": {
+        "mean": 148.78,
+        "median": 128.0,
+        "std": 87.31,
+        "min": 25,
+        "max": 784,
+        "p25": 88.0,
+        "p75": 182.25
+      },
+      "datasets": [
+        "tripadvisor deceptive opinion"
+      ],
+      "n_datasets": 1
+    },
+    "ultimate deception": {
+      "n_total": 376,
+      "n_deceptive": 238,
+      "n_truthful": 138,
+      "frac_deceptive": 0.633,
+      "class_balance": "imbalanced",
+      "text_length": {
+        "mean": 323.07,
+        "median": 239.0,
+        "std": 244.0,
+        "min": 34,
+        "max": 1501,
+        "p25": 152.75,
+        "p75": 420.0
+      },
+      "datasets": [
+        "ultimate deception"
+      ],
+      "n_datasets": 1
+    },
+    "zeng et al 2022 fake news": {
+      "n_total": 62101,
+      "n_deceptive": 27486,
+      "n_truthful": 34615,
+      "frac_deceptive": 0.4426,
+      "class_balance": "balanced",
+      "text_length": {
+        "mean": 548.13,
+        "median": 404.0,
+        "std": 606.18,
+        "min": 1,
+        "max": 24234,
+        "p25": 243.0,
+        "p75": 679.0
+      },
+      "datasets": [
+        "zeng et al 2022 fake news"
+      ],
+      "n_datasets": 1
+    },
+    "zeng et al 2022 job scams": {
+      "n_total": 14343,
+      "n_deceptive": 608,
+      "n_truthful": 13735,
+      "frac_deceptive": 0.0424,
+      "class_balance": "imbalanced",
+      "text_length": {
+        "mean": 186.56,
+        "median": 160.0,
+        "std": 130.0,
+        "min": 3,
+        "max": 2115,
+        "p25": 98.0,
+        "p75": 242.0
+      },
+      "datasets": [
+        "zeng et al 2022 job scams"
+      ],
+      "n_datasets": 1
+    },
+    "zeng et al 2022 phishing": {
+      "n_total": 15336,
+      "n_deceptive": 6134,
+      "n_truthful": 9202,
+      "frac_deceptive": 0.4,
+      "class_balance": "balanced",
+      "text_length": {
+        "mean": 357.65,
+        "median": 160.0,
+        "std": 857.86,
+        "min": 1,
+        "max": 46576,
+        "p25": 86.0,
+        "p75": 339.0
+      },
+      "datasets": [
+        "zeng et al 2022 phishing"
+      ],
+      "n_datasets": 1
+    },
+    "zeng et al 2022 political statements": {
+      "n_total": 12812,
+      "n_deceptive": 5654,
+      "n_truthful": 7158,
+      "frac_deceptive": 0.4413,
+      "class_balance": "balanced",
+      "text_length": {
+        "mean": 17.7,
+        "median": 16.0,
+        "std": 7.75,
+        "min": 2,
+        "max": 66,
+        "p25": 12.0,
+        "p75": 22.0
+      },
+      "datasets": [
+        "zeng et al 2022 political statements"
+      ],
+      "n_datasets": 1
+    },
+    "zeng et al 2022 product reviews": {
+      "n_total": 20976,
+      "n_deceptive": 10495,
+      "n_truthful": 10481,
+      "frac_deceptive": 0.5003,
+      "class_balance": "balanced",
+      "text_length": {
+        "mean": 68.8,
+        "median": 44.0,
+        "std": 84.89,
+        "min": 12,
+        "max": 2826,
+        "p25": 30.0,
+        "p75": 73.0
+      },
+      "datasets": [
+        "zeng et al 2022 product reviews"
+      ],
+      "n_datasets": 1
+    }
+  },
+  "dataset_stats": {
+    "MU3D": {
+      "n_total": 320,
+      "n_deceptive": 160,
+      "n_truthful": 160,
+      "frac_deceptive": 0.5,
+      "text_length": {
+        "mean": 106.69,
+        "median": 108.0,
+        "std": 23.44
+      },
+      "domains": [
+        "MU3D"
+      ]
+    },
+    "bluff": {
+      "n_total": 753,
+      "n_deceptive": 502,
+      "n_truthful": 251,
+      "frac_deceptive": 0.6667,
+      "text_length": {
+        "mean": 195.23,
+        "median": 189.0,
+        "std": 49.01
+      },
+      "domains": [
+        "bluff"
+      ]
+    },
+    "boulder lies and truth": {
+      "n_total": 1492,
+      "n_deceptive": 439,
+      "n_truthful": 1053,
+      "frac_deceptive": 0.2942,
+      "text_length": {
+        "mean": 101.41,
+        "median": 88.0,
+        "std": 58.99
+      },
+      "domains": [
+        "boulder lies and truth"
+      ]
+    },
+    "box of lies": {
+      "n_total": 1067,
+      "n_deceptive": 882,
+      "n_truthful": 185,
+      "frac_deceptive": 0.8266,
+      "text_length": {
+        "mean": 7.79,
+        "median": 5.0,
+        "std": 8.98
+      },
+      "domains": [
+        "box of lies"
+      ]
+    },
+    "cross cultural deception": {
+      "n_total": 600,
+      "n_deceptive": 300,
+      "n_truthful": 300,
+      "frac_deceptive": 0.5,
+      "text_length": {
+        "mean": 71.04,
+        "median": 65.0,
+        "std": 31.23
+      },
+      "domains": [
+        "cross cultural deception"
+      ]
+    },
+    "deceptive opinion spam": {
+      "n_total": 800,
+      "n_deceptive": 400,
+      "n_truthful": 400,
+      "frac_deceptive": 0.5,
+      "text_length": {
+        "mean": 119.44,
+        "median": 105.0,
+        "std": 64.68
+      },
+      "domains": [
+        "deceptive opinion spam"
+      ]
+    },
+    "derev": {
+      "n_total": 4487,
+      "n_deceptive": 1784,
+      "n_truthful": 2703,
+      "frac_deceptive": 0.3976,
+      "text_length": {
+        "mean": 151.43,
+        "median": 101.0,
+        "std": 170.38
+      },
+      "domains": [
+        "derev"
+      ]
+    },
+    "fake job postings": {
+      "n_total": 17880,
+      "n_deceptive": 866,
+      "n_truthful": 17014,
+      "frac_deceptive": 0.0484,
+      "text_length": {
+        "mean": 374.79,
+        "median": 349.0,
+        "std": 207.61
+      },
+      "domains": [
+        "fake job postings"
+      ]
+    },
+    "hippocorpus": {
+      "n_total": 6854,
+      "n_deceptive": 2756,
+      "n_truthful": 4098,
+      "frac_deceptive": 0.4021,
+      "text_length": {
+        "mean": 262.62,
+        "median": 249.0,
+        "std": 88.23
+      },
+      "domains": [
+        "hippocorpus"
+      ]
+    },
+    "li et al 2015 doctor": {
+      "n_total": 556,
+      "n_deceptive": 356,
+      "n_truthful": 200,
+      "frac_deceptive": 0.6403,
+      "text_length": {
+        "mean": 100.14,
+        "median": 88.5,
+        "std": 46.97
+      },
+      "domains": [
+        "li et al 2015 doctor"
+      ]
+    },
+    "li et al 2015 hotel": {
+      "n_total": 1880,
+      "n_deceptive": 1080,
+      "n_truthful": 800,
+      "frac_deceptive": 0.5745,
+      "text_length": {
+        "mean": 138.2,
+        "median": 118.0,
+        "std": 86.07
+      },
+      "domains": [
+        "li et al 2015 hotel"
+      ]
+    },
+    "li et al 2015 restaurant": {
+      "n_total": 400,
+      "n_deceptive": 200,
+      "n_truthful": 200,
+      "frac_deceptive": 0.5,
+      "text_length": {
+        "mean": 134.26,
+        "median": 117.0,
+        "std": 81.24
+      },
+      "domains": [
+        "li et al 2015 restaurant"
+      ]
+    },
+    "nazario trec 2007 email spam": {
+      "n_total": 53668,
+      "n_deceptive": 29923,
+      "n_truthful": 23745,
+      "frac_deceptive": 0.5576,
+      "text_length": {
+        "mean": 271.38,
+        "median": 153.0,
+        "std": 659.0
+      },
+      "domains": [
+        "nazario trec 2007 email spam"
+      ]
+    },
+    "negative deceptive opinion spam": {
+      "n_total": 800,
+      "n_deceptive": 400,
+      "n_truthful": 400,
+      "frac_deceptive": 0.5,
+      "text_length": {
+        "mean": 178.11,
+        "median": 159.0,
+        "std": 96.65
+      },
+      "domains": [
+        "negative deceptive opinion spam"
+      ]
+    },
+    "open domain": {
+      "n_total": 7168,
+      "n_deceptive": 3584,
+      "n_truthful": 3584,
+      "frac_deceptive": 0.5,
+      "text_length": {
+        "mean": 8.16,
+        "median": 7.0,
+        "std": 4.82
+      },
+      "domains": [
+        "open domain"
+      ]
+    },
+    "pops": {
+      "n_total": 400,
+      "n_deceptive": 400,
+      "n_truthful": 0,
+      "frac_deceptive": 1.0,
+      "text_length": {
+        "mean": 114.94,
+        "median": 105.0,
+        "std": 53.04
+      },
+      "domains": [
+        "pops"
+      ]
+    },
+    "real-life trial": {
+      "n_total": 121,
+      "n_deceptive": 61,
+      "n_truthful": 60,
+      "frac_deceptive": 0.5041,
+      "text_length": {
+        "mean": 66.31,
+        "median": 59.0,
+        "std": 37.56
+      },
+      "domains": [
+        "real-life trial"
+      ]
+    },
+    "stapel science fraud": {
+      "n_total": 23447,
+      "n_deceptive": 6357,
+      "n_truthful": 17090,
+      "frac_deceptive": 0.2711,
+      "text_length": {
+        "mean": 16.31,
+        "median": 10.0,
+        "std": 35.57
+      },
+      "domains": [
+        "stapel science fraud"
+      ]
+    },
+    "stony brook opinions": {
+      "n_total": 1600,
+      "n_deceptive": 800,
+      "n_truthful": 800,
+      "frac_deceptive": 0.5,
+      "text_length": {
+        "mean": 136.48,
+        "median": 121.0,
+        "std": 46.54
+      },
+      "domains": [
+        "stony brook opinions"
+      ]
+    },
+    "stony brook reviews": {
+      "n_total": 1000,
+      "n_deceptive": 500,
+      "n_truthful": 500,
+      "frac_deceptive": 0.5,
+      "text_length": {
+        "mean": 120.06,
+        "median": 111.0,
+        "std": 26.25
+      },
+      "domains": [
+        "stony brook reviews"
+      ]
+    },
+    "trec 2005 email spam": {
+      "n_total": 55075,
+      "n_deceptive": 24685,
+      "n_truthful": 30390,
+      "frac_deceptive": 0.4482,
+      "text_length": {
+        "mean": 299.12,
+        "median": 122.0,
+        "std": 828.75
+      },
+      "domains": [
+        "trec 2005 email spam"
+      ]
+    },
+    "tripadvisor deceptive opinion": {
+      "n_total": 1600,
+      "n_deceptive": 800,
+      "n_truthful": 800,
+      "frac_deceptive": 0.5,
+      "text_length": {
+        "mean": 148.78,
+        "median": 128.0,
+        "std": 87.31
+      },
+      "domains": [
+        "tripadvisor deceptive opinion"
+      ]
+    },
+    "ultimate deception": {
+      "n_total": 376,
+      "n_deceptive": 238,
+      "n_truthful": 138,
+      "frac_deceptive": 0.633,
+      "text_length": {
+        "mean": 323.07,
+        "median": 239.0,
+        "std": 244.0
+      },
+      "domains": [
+        "ultimate deception"
+      ]
+    },
+    "zeng et al 2022 fake news": {
+      "n_total": 62101,
+      "n_deceptive": 27486,
+      "n_truthful": 34615,
+      "frac_deceptive": 0.4426,
+      "text_length": {
+        "mean": 548.13,
+        "median": 404.0,
+        "std": 606.18
+      },
+      "domains": [
+        "zeng et al 2022 fake news"
+      ]
+    },
+    "zeng et al 2022 job scams": {
+      "n_total": 14343,
+      "n_deceptive": 608,
+      "n_truthful": 13735,
+      "frac_deceptive": 0.0424,
+      "text_length": {
+        "mean": 186.56,
+        "median": 160.0,
+        "std": 130.0
+      },
+      "domains": [
+        "zeng et al 2022 job scams"
+      ]
+    },
+    "zeng et al 2022 phishing": {
+      "n_total": 15336,
+      "n_deceptive": 6134,
+      "n_truthful": 9202,
+      "frac_deceptive": 0.4,
+      "text_length": {
+        "mean": 357.65,
+        "median": 160.0,
+        "std": 857.86
+      },
+      "domains": [
+        "zeng et al 2022 phishing"
+      ]
+    },
+    "zeng et al 2022 political statements": {
+      "n_total": 12812,
+      "n_deceptive": 5654,
+      "n_truthful": 7158,
+      "frac_deceptive": 0.4413,
+      "text_length": {
+        "mean": 17.7,
+        "median": 16.0,
+        "std": 7.75
+      },
+      "domains": [
+        "zeng et al 2022 political statements"
+      ]
+    },
+    "zeng et al 2022 product reviews": {
+      "n_total": 20976,
+      "n_deceptive": 10495,
+      "n_truthful": 10481,
+      "frac_deceptive": 0.5003,
+      "text_length": {
+        "mean": 68.8,
+        "median": 44.0,
+        "std": 84.89
+      },
+      "domains": [
+        "zeng et al 2022 product reviews"
+      ]
+    }
+  },
+  "duplicate_report": {
+    "total_exact_duplicates": 7048,
+    "cross_domain_duplicates": 1603,
+    "within_domain_duplicates": 1216,
+    "label_conflicts": 101,
+    "warning": "Cross-domain duplicates will contaminate LODO evaluation — deduplicate before training.",
+    "cross_domain_duplicate_pairs": {
+      "deceptive opinion spam <-> tripadvisor deceptive opinion": 800,
+      "negative deceptive opinion spam <-> tripadvisor deceptive opinion": 796,
+      "nazario trec 2007 email spam <-> trec 2005 email spam": 4,
+      "nazario trec 2007 email spam <-> stapel science fraud": 2,
+      "open domain <-> zeng et al 2022 political statements": 1
+    }
+  },
+  "domain_pair_dissimilarity": {
+    "MU3D -> bluff": {
+      "js_divergence": 0.529734,
+      "vocab_jaccard": 0.250438,
+      "vocab_overlap": 0.749562
+    },
+    "MU3D -> boulder lies and truth": {
+      "js_divergence": 0.540978,
+      "vocab_jaccard": 0.317775,
+      "vocab_overlap": 0.682225
+    },
+    "MU3D -> box of lies": {
+      "js_divergence": 0.583376,
+      "vocab_jaccard": 0.254159,
+      "vocab_overlap": 0.745841
+    },
+    "MU3D -> cross cultural deception": {
+      "js_divergence": 0.500875,
+      "vocab_jaccard": 0.393144,
+      "vocab_overlap": 0.606856
+    },
+    "MU3D -> deceptive opinion spam": {
+      "js_divergence": 0.584513,
+      "vocab_jaccard": 0.338342,
+      "vocab_overlap": 0.661658
+    },
+    "MU3D -> derev": {
+      "js_divergence": 0.52981,
+      "vocab_jaccard": 0.241693,
+      "vocab_overlap": 0.758307
+    },
+    "MU3D -> fake job postings": {
+      "js_divergence": 0.681747,
+      "vocab_jaccard": 0.208067,
+      "vocab_overlap": 0.791933
+    },
+    "MU3D -> hippocorpus": {
+      "js_divergence": 0.445513,
+      "vocab_jaccard": 0.233282,
+      "vocab_overlap": 0.766718
+    },
+    "MU3D -> li et al 2015 doctor": {
+      "js_divergence": 0.510867,
+      "vocab_jaccard": 0.376292,
+      "vocab_overlap": 0.623708
+    },
+    "MU3D -> li et al 2015 hotel": {
+      "js_divergence": 0.556714,
+      "vocab_jaccard": 0.30668,
+      "vocab_overlap": 0.69332
+    },
+    "MU3D -> li et al 2015 restaurant": {
+      "js_divergence": 0.550851,
+      "vocab_jaccard": 0.357057,
+      "vocab_overlap": 0.642943
+    },
+    "MU3D -> nazario trec 2007 email spam": {
+      "js_divergence": 0.670127,
+      "vocab_jaccard": 0.190481,
+      "vocab_overlap": 0.809519
+    },
+    "MU3D -> negative deceptive opinion spam": {
+      "js_divergence": 0.554358,
+      "vocab_jaccard": 0.326192,
+      "vocab_overlap": 0.673808
+    },
+    "MU3D -> open domain": {
+      "js_divergence": 0.604669,
+      "vocab_jaccard": 0.300589,
+      "vocab_overlap": 0.699411
+    },
+    "MU3D -> pops": {
+      "js_divergence": 0.596817,
+      "vocab_jaccard": 0.352193,
+      "vocab_overlap": 0.647807
+    },
+    "MU3D -> real-life trial": {
+      "js_divergence": 0.459775,
+      "vocab_jaccard": 0.306957,
+      "vocab_overlap": 0.693043
+    },
+    "MU3D -> stapel science fraud": {
+      "js_divergence": 0.699792,
+      "vocab_jaccard": 0.28549,
+      "vocab_overlap": 0.71451
+    },
+    "MU3D -> stony brook opinions": {
+      "js_divergence": 0.592757,
+      "vocab_jaccard": 0.301003,
+      "vocab_overlap": 0.698997
+    },
+    "MU3D -> stony brook reviews": {
+      "js_divergence": 0.544635,
+      "vocab_jaccard": 0.350936,
+      "vocab_overlap": 0.649064
+    },
+    "MU3D -> trec 2005 email spam": {
+      "js_divergence": 0.675577,
+      "vocab_jaccard": 0.191927,
+      "vocab_overlap": 0.808073
+    },
+    "MU3D -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.55803,
+      "vocab_jaccard": 0.308783,
+      "vocab_overlap": 0.691217
+    },
+    "MU3D -> ultimate deception": {
+      "js_divergence": 0.563371,
+      "vocab_jaccard": 0.304442,
+      "vocab_overlap": 0.695558
+    },
+    "MU3D -> zeng et al 2022 fake news": {
+      "js_divergence": 0.596864,
+      "vocab_jaccard": 0.191485,
+      "vocab_overlap": 0.808515
+    },
+    "MU3D -> zeng et al 2022 job scams": {
+      "js_divergence": 0.691029,
+      "vocab_jaccard": 0.213159,
+      "vocab_overlap": 0.786841
+    },
+    "MU3D -> zeng et al 2022 phishing": {
+      "js_divergence": 0.630806,
+      "vocab_jaccard": 0.190792,
+      "vocab_overlap": 0.809208
+    },
+    "MU3D -> zeng et al 2022 political statements": {
+      "js_divergence": 0.661141,
+      "vocab_jaccard": 0.230363,
+      "vocab_overlap": 0.769637
+    },
+    "MU3D -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.520764,
+      "vocab_jaccard": 0.224873,
+      "vocab_overlap": 0.775127
+    },
+    "bluff -> boulder lies and truth": {
+      "js_divergence": 0.434696,
+      "vocab_jaccard": 0.535161,
+      "vocab_overlap": 0.464839
+    },
+    "bluff -> box of lies": {
+      "js_divergence": 0.599808,
+      "vocab_jaccard": 0.122799,
+      "vocab_overlap": 0.877201
+    },
+    "bluff -> cross cultural deception": {
+      "js_divergence": 0.502153,
+      "vocab_jaccard": 0.333618,
+      "vocab_overlap": 0.666382
+    },
+    "bluff -> deceptive opinion spam": {
+      "js_divergence": 0.510038,
+      "vocab_jaccard": 0.420427,
+      "vocab_overlap": 0.579573
+    },
+    "bluff -> derev": {
+      "js_divergence": 0.383498,
+      "vocab_jaccard": 0.706031,
+      "vocab_overlap": 0.293969
+    },
+    "bluff -> fake job postings": {
+      "js_divergence": 0.561105,
+      "vocab_jaccard": 0.683909,
+      "vocab_overlap": 0.316091
+    },
+    "bluff -> hippocorpus": {
+      "js_divergence": 0.363079,
+      "vocab_jaccard": 0.737721,
+      "vocab_overlap": 0.262279
+    },
+    "bluff -> li et al 2015 doctor": {
+      "js_divergence": 0.506352,
+      "vocab_jaccard": 0.340605,
+      "vocab_overlap": 0.659395
+    },
+    "bluff -> li et al 2015 hotel": {
+      "js_divergence": 0.458405,
+      "vocab_jaccard": 0.571873,
+      "vocab_overlap": 0.428127
+    },
+    "bluff -> li et al 2015 restaurant": {
+      "js_divergence": 0.487833,
+      "vocab_jaccard": 0.356534,
+      "vocab_overlap": 0.643466
+    },
+    "bluff -> nazario trec 2007 email spam": {
+      "js_divergence": 0.515002,
+      "vocab_jaccard": 0.672384,
+      "vocab_overlap": 0.327616
+    },
+    "bluff -> negative deceptive opinion spam": {
+      "js_divergence": 0.452841,
+      "vocab_jaccard": 0.512232,
+      "vocab_overlap": 0.487768
+    },
+    "bluff -> open domain": {
+      "js_divergence": 0.443788,
+      "vocab_jaccard": 0.531367,
+      "vocab_overlap": 0.468633
+    },
+    "bluff -> pops": {
+      "js_divergence": 0.541027,
+      "vocab_jaccard": 0.292821,
+      "vocab_overlap": 0.707179
+    },
+    "bluff -> real-life trial": {
+      "js_divergence": 0.510292,
+      "vocab_jaccard": 0.1588,
+      "vocab_overlap": 0.8412
+    },
+    "bluff -> stapel science fraud": {
+      "js_divergence": 0.609821,
+      "vocab_jaccard": 0.505867,
+      "vocab_overlap": 0.494133
+    },
+    "bluff -> stony brook opinions": {
+      "js_divergence": 0.506402,
+      "vocab_jaccard": 0.525226,
+      "vocab_overlap": 0.474774
+    },
+    "bluff -> stony brook reviews": {
+      "js_divergence": 0.475441,
+      "vocab_jaccard": 0.442075,
+      "vocab_overlap": 0.557925
+    },
+    "bluff -> trec 2005 email spam": {
+      "js_divergence": 0.510895,
+      "vocab_jaccard": 0.676815,
+      "vocab_overlap": 0.323185
+    },
+    "bluff -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.459238,
+      "vocab_jaccard": 0.564503,
+      "vocab_overlap": 0.435497
+    },
+    "bluff -> ultimate deception": {
+      "js_divergence": 0.461959,
+      "vocab_jaccard": 0.475354,
+      "vocab_overlap": 0.524646
+    },
+    "bluff -> zeng et al 2022 fake news": {
+      "js_divergence": 0.354859,
+      "vocab_jaccard": 0.697715,
+      "vocab_overlap": 0.302285
+    },
+    "bluff -> zeng et al 2022 job scams": {
+      "js_divergence": 0.574345,
+      "vocab_jaccard": 0.669361,
+      "vocab_overlap": 0.330639
+    },
+    "bluff -> zeng et al 2022 phishing": {
+      "js_divergence": 0.442747,
+      "vocab_jaccard": 0.694137,
+      "vocab_overlap": 0.305863
+    },
+    "bluff -> zeng et al 2022 political statements": {
+      "js_divergence": 0.479181,
+      "vocab_jaccard": 0.652781,
+      "vocab_overlap": 0.347219
+    },
+    "bluff -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.389778,
+      "vocab_jaccard": 0.726784,
+      "vocab_overlap": 0.273216
+    },
+    "boulder lies and truth -> box of lies": {
+      "js_divergence": 0.602825,
+      "vocab_jaccard": 0.162033,
+      "vocab_overlap": 0.837967
+    },
+    "boulder lies and truth -> cross cultural deception": {
+      "js_divergence": 0.516639,
+      "vocab_jaccard": 0.37973,
+      "vocab_overlap": 0.62027
+    },
+    "boulder lies and truth -> deceptive opinion spam": {
+      "js_divergence": 0.326597,
+      "vocab_jaccard": 0.547402,
+      "vocab_overlap": 0.452598
+    },
+    "boulder lies and truth -> derev": {
+      "js_divergence": 0.441332,
+      "vocab_jaccard": 0.530274,
+      "vocab_overlap": 0.469726
+    },
+    "boulder lies and truth -> fake job postings": {
+      "js_divergence": 0.581943,
+      "vocab_jaccard": 0.500345,
+      "vocab_overlap": 0.499655
+    },
+    "boulder lies and truth -> hippocorpus": {
+      "js_divergence": 0.383281,
+      "vocab_jaccard": 0.542511,
+      "vocab_overlap": 0.457489
+    },
+    "boulder lies and truth -> li et al 2015 doctor": {
+      "js_divergence": 0.478918,
+      "vocab_jaccard": 0.406913,
+      "vocab_overlap": 0.593087
+    },
+    "boulder lies and truth -> li et al 2015 hotel": {
+      "js_divergence": 0.270845,
+      "vocab_jaccard": 0.630473,
+      "vocab_overlap": 0.369527
+    },
+    "boulder lies and truth -> li et al 2015 restaurant": {
+      "js_divergence": 0.391295,
+      "vocab_jaccard": 0.458716,
+      "vocab_overlap": 0.541284
+    },
+    "boulder lies and truth -> nazario trec 2007 email spam": {
+      "js_divergence": 0.563605,
+      "vocab_jaccard": 0.452249,
+      "vocab_overlap": 0.547751
+    },
+    "boulder lies and truth -> negative deceptive opinion spam": {
+      "js_divergence": 0.288761,
+      "vocab_jaccard": 0.608503,
+      "vocab_overlap": 0.391497
+    },
+    "boulder lies and truth -> open domain": {
+      "js_divergence": 0.491674,
+      "vocab_jaccard": 0.493227,
+      "vocab_overlap": 0.506773
+    },
+    "boulder lies and truth -> pops": {
+      "js_divergence": 0.357227,
+      "vocab_jaccard": 0.425368,
+      "vocab_overlap": 0.574632
+    },
+    "boulder lies and truth -> real-life trial": {
+      "js_divergence": 0.522702,
+      "vocab_jaccard": 0.205041,
+      "vocab_overlap": 0.794959
+    },
+    "boulder lies and truth -> stapel science fraud": {
+      "js_divergence": 0.632097,
+      "vocab_jaccard": 0.448194,
+      "vocab_overlap": 0.551806
+    },
+    "boulder lies and truth -> stony brook opinions": {
+      "js_divergence": 0.537442,
+      "vocab_jaccard": 0.476533,
+      "vocab_overlap": 0.523467
+    },
+    "boulder lies and truth -> stony brook reviews": {
+      "js_divergence": 0.382634,
+      "vocab_jaccard": 0.530391,
+      "vocab_overlap": 0.469609
+    },
+    "boulder lies and truth -> trec 2005 email spam": {
+      "js_divergence": 0.564647,
+      "vocab_jaccard": 0.455496,
+      "vocab_overlap": 0.544504
+    },
+    "boulder lies and truth -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.2723,
+      "vocab_jaccard": 0.629279,
+      "vocab_overlap": 0.370721
+    },
+    "boulder lies and truth -> ultimate deception": {
+      "js_divergence": 0.462035,
+      "vocab_jaccard": 0.499396,
+      "vocab_overlap": 0.500604
+    },
+    "boulder lies and truth -> zeng et al 2022 fake news": {
+      "js_divergence": 0.504179,
+      "vocab_jaccard": 0.465213,
+      "vocab_overlap": 0.534787
+    },
+    "boulder lies and truth -> zeng et al 2022 job scams": {
+      "js_divergence": 0.592361,
+      "vocab_jaccard": 0.50842,
+      "vocab_overlap": 0.49158
+    },
+    "boulder lies and truth -> zeng et al 2022 phishing": {
+      "js_divergence": 0.51768,
+      "vocab_jaccard": 0.463528,
+      "vocab_overlap": 0.536472
+    },
+    "boulder lies and truth -> zeng et al 2022 political statements": {
+      "js_divergence": 0.573235,
+      "vocab_jaccard": 0.469374,
+      "vocab_overlap": 0.530626
+    },
+    "boulder lies and truth -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.305407,
+      "vocab_jaccard": 0.540653,
+      "vocab_overlap": 0.459347
+    },
+    "box of lies -> cross cultural deception": {
+      "js_divergence": 0.623013,
+      "vocab_jaccard": 0.190108,
+      "vocab_overlap": 0.809892
+    },
+    "box of lies -> deceptive opinion spam": {
+      "js_divergence": 0.657389,
+      "vocab_jaccard": 0.189557,
+      "vocab_overlap": 0.810443
+    },
+    "box of lies -> derev": {
+      "js_divergence": 0.60533,
+      "vocab_jaccard": 0.1112,
+      "vocab_overlap": 0.8888
+    },
+    "box of lies -> fake job postings": {
+      "js_divergence": 0.745487,
+      "vocab_jaccard": 0.09817,
+      "vocab_overlap": 0.90183
+    },
+    "box of lies -> hippocorpus": {
+      "js_divergence": 0.603884,
+      "vocab_jaccard": 0.108613,
+      "vocab_overlap": 0.891387
+    },
+    "box of lies -> li et al 2015 doctor": {
+      "js_divergence": 0.648302,
+      "vocab_jaccard": 0.191019,
+      "vocab_overlap": 0.808981
+    },
+    "box of lies -> li et al 2015 hotel": {
+      "js_divergence": 0.635295,
+      "vocab_jaccard": 0.152695,
+      "vocab_overlap": 0.847305
+    },
+    "box of lies -> li et al 2015 restaurant": {
+      "js_divergence": 0.628307,
+      "vocab_jaccard": 0.216958,
+      "vocab_overlap": 0.783042
+    },
+    "box of lies -> nazario trec 2007 email spam": {
+      "js_divergence": 0.703259,
+      "vocab_jaccard": 0.089931,
+      "vocab_overlap": 0.910069
+    },
+    "box of lies -> negative deceptive opinion spam": {
+      "js_divergence": 0.62869,
+      "vocab_jaccard": 0.167087,
+      "vocab_overlap": 0.832913
+    },
+    "box of lies -> open domain": {
+      "js_divergence": 0.641493,
+      "vocab_jaccard": 0.165064,
+      "vocab_overlap": 0.834936
+    },
+    "box of lies -> pops": {
+      "js_divergence": 0.659296,
+      "vocab_jaccard": 0.211941,
+      "vocab_overlap": 0.788059
+    },
+    "box of lies -> real-life trial": {
+      "js_divergence": 0.565785,
+      "vocab_jaccard": 0.272386,
+      "vocab_overlap": 0.727614
+    },
+    "box of lies -> stapel science fraud": {
+      "js_divergence": 0.745875,
+      "vocab_jaccard": 0.133184,
+      "vocab_overlap": 0.866816
+    },
+    "box of lies -> stony brook opinions": {
+      "js_divergence": 0.648525,
+      "vocab_jaccard": 0.138272,
+      "vocab_overlap": 0.861728
+    },
+    "box of lies -> stony brook reviews": {
+      "js_divergence": 0.600296,
+      "vocab_jaccard": 0.19234,
+      "vocab_overlap": 0.80766
+    },
+    "box of lies -> trec 2005 email spam": {
+      "js_divergence": 0.712818,
+      "vocab_jaccard": 0.090444,
+      "vocab_overlap": 0.909556
+    },
+    "box of lies -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.635254,
+      "vocab_jaccard": 0.155429,
+      "vocab_overlap": 0.844571
+    },
+    "box of lies -> ultimate deception": {
+      "js_divergence": 0.626435,
+      "vocab_jaccard": 0.149977,
+      "vocab_overlap": 0.850023
+    },
+    "box of lies -> zeng et al 2022 fake news": {
+      "js_divergence": 0.66658,
+      "vocab_jaccard": 0.090343,
+      "vocab_overlap": 0.909657
+    },
+    "box of lies -> zeng et al 2022 job scams": {
+      "js_divergence": 0.752656,
+      "vocab_jaccard": 0.100805,
+      "vocab_overlap": 0.899195
+    },
+    "box of lies -> zeng et al 2022 phishing": {
+      "js_divergence": 0.673116,
+      "vocab_jaccard": 0.090016,
+      "vocab_overlap": 0.909984
+    },
+    "box of lies -> zeng et al 2022 political statements": {
+      "js_divergence": 0.714271,
+      "vocab_jaccard": 0.110449,
+      "vocab_overlap": 0.889551
+    },
+    "box of lies -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.560543,
+      "vocab_jaccard": 0.106926,
+      "vocab_overlap": 0.893074
+    },
+    "cross cultural deception -> deceptive opinion spam": {
+      "js_divergence": 0.573762,
+      "vocab_jaccard": 0.362065,
+      "vocab_overlap": 0.637935
+    },
+    "cross cultural deception -> derev": {
+      "js_divergence": 0.465355,
+      "vocab_jaccard": 0.34171,
+      "vocab_overlap": 0.65829
+    },
+    "cross cultural deception -> fake job postings": {
+      "js_divergence": 0.62189,
+      "vocab_jaccard": 0.292762,
+      "vocab_overlap": 0.707238
+    },
+    "cross cultural deception -> hippocorpus": {
+      "js_divergence": 0.464957,
+      "vocab_jaccard": 0.328956,
+      "vocab_overlap": 0.671044
+    },
+    "cross cultural deception -> li et al 2015 doctor": {
+      "js_divergence": 0.514466,
+      "vocab_jaccard": 0.417483,
+      "vocab_overlap": 0.582517
+    },
+    "cross cultural deception -> li et al 2015 hotel": {
+      "js_divergence": 0.541468,
+      "vocab_jaccard": 0.376227,
+      "vocab_overlap": 0.623773
+    },
+    "cross cultural deception -> li et al 2015 restaurant": {
+      "js_divergence": 0.548488,
+      "vocab_jaccard": 0.357215,
+      "vocab_overlap": 0.642785
+    },
+    "cross cultural deception -> nazario trec 2007 email spam": {
+      "js_divergence": 0.612996,
+      "vocab_jaccard": 0.273131,
+      "vocab_overlap": 0.726869
+    },
+    "cross cultural deception -> negative deceptive opinion spam": {
+      "js_divergence": 0.538297,
+      "vocab_jaccard": 0.383056,
+      "vocab_overlap": 0.616944
+    },
+    "cross cultural deception -> open domain": {
+      "js_divergence": 0.526151,
+      "vocab_jaccard": 0.376965,
+      "vocab_overlap": 0.623035
+    },
+    "cross cultural deception -> pops": {
+      "js_divergence": 0.578968,
+      "vocab_jaccard": 0.341611,
+      "vocab_overlap": 0.658389
+    },
+    "cross cultural deception -> real-life trial": {
+      "js_divergence": 0.539916,
+      "vocab_jaccard": 0.257058,
+      "vocab_overlap": 0.742942
+    },
+    "cross cultural deception -> stapel science fraud": {
+      "js_divergence": 0.625494,
+      "vocab_jaccard": 0.376027,
+      "vocab_overlap": 0.623973
+    },
+    "cross cultural deception -> stony brook opinions": {
+      "js_divergence": 0.410234,
+      "vocab_jaccard": 0.449513,
+      "vocab_overlap": 0.550487
+    },
+    "cross cultural deception -> stony brook reviews": {
+      "js_divergence": 0.520295,
+      "vocab_jaccard": 0.376327,
+      "vocab_overlap": 0.623673
+    },
+    "cross cultural deception -> trec 2005 email spam": {
+      "js_divergence": 0.614573,
+      "vocab_jaccard": 0.275377,
+      "vocab_overlap": 0.724623
+    },
+    "cross cultural deception -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.543273,
+      "vocab_jaccard": 0.376267,
+      "vocab_overlap": 0.623733
+    },
+    "cross cultural deception -> ultimate deception": {
+      "js_divergence": 0.514852,
+      "vocab_jaccard": 0.392141,
+      "vocab_overlap": 0.607859
+    },
+    "cross cultural deception -> zeng et al 2022 fake news": {
+      "js_divergence": 0.514053,
+      "vocab_jaccard": 0.276814,
+      "vocab_overlap": 0.723186
+    },
+    "cross cultural deception -> zeng et al 2022 job scams": {
+      "js_divergence": 0.632667,
+      "vocab_jaccard": 0.29778,
+      "vocab_overlap": 0.70222
+    },
+    "cross cultural deception -> zeng et al 2022 phishing": {
+      "js_divergence": 0.558313,
+      "vocab_jaccard": 0.275944,
+      "vocab_overlap": 0.724056
+    },
+    "cross cultural deception -> zeng et al 2022 political statements": {
+      "js_divergence": 0.571993,
+      "vocab_jaccard": 0.334182,
+      "vocab_overlap": 0.665818
+    },
+    "cross cultural deception -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.485806,
+      "vocab_jaccard": 0.31701,
+      "vocab_overlap": 0.68299
+    },
+    "deceptive opinion spam -> derev": {
+      "js_divergence": 0.511453,
+      "vocab_jaccard": 0.408203,
+      "vocab_overlap": 0.591797
+    },
+    "deceptive opinion spam -> fake job postings": {
+      "js_divergence": 0.617073,
+      "vocab_jaccard": 0.373799,
+      "vocab_overlap": 0.626201
+    },
+    "deceptive opinion spam -> hippocorpus": {
+      "js_divergence": 0.44566,
+      "vocab_jaccard": 0.410243,
+      "vocab_overlap": 0.589757
+    },
+    "deceptive opinion spam -> li et al 2015 doctor": {
+      "js_divergence": 0.503678,
+      "vocab_jaccard": 0.43,
+      "vocab_overlap": 0.57
+    },
+    "deceptive opinion spam -> li et al 2015 hotel": {
+      "js_divergence": 0.186327,
+      "vocab_jaccard": 0.677268,
+      "vocab_overlap": 0.322732
+    },
+    "deceptive opinion spam -> li et al 2015 restaurant": {
+      "js_divergence": 0.368568,
+      "vocab_jaccard": 0.506784,
+      "vocab_overlap": 0.493216
+    },
+    "deceptive opinion spam -> nazario trec 2007 email spam": {
+      "js_divergence": 0.62361,
+      "vocab_jaccard": 0.332239,
+      "vocab_overlap": 0.667761
+    },
+    "deceptive opinion spam -> negative deceptive opinion spam": {
+      "js_divergence": 0.294486,
+      "vocab_jaccard": 0.571012,
+      "vocab_overlap": 0.428988
+    },
+    "deceptive opinion spam -> open domain": {
+      "js_divergence": 0.55108,
+      "vocab_jaccard": 0.428758,
+      "vocab_overlap": 0.571242
+    },
+    "deceptive opinion spam -> pops": {
+      "js_divergence": 0.21095,
+      "vocab_jaccard": 0.536769,
+      "vocab_overlap": 0.463231
+    },
+    "deceptive opinion spam -> real-life trial": {
+      "js_divergence": 0.565661,
+      "vocab_jaccard": 0.232545,
+      "vocab_overlap": 0.767455
+    },
+    "deceptive opinion spam -> stapel science fraud": {
+      "js_divergence": 0.659173,
+      "vocab_jaccard": 0.396138,
+      "vocab_overlap": 0.603862
+    },
+    "deceptive opinion spam -> stony brook opinions": {
+      "js_divergence": 0.595259,
+      "vocab_jaccard": 0.396927,
+      "vocab_overlap": 0.603073
+    },
+    "deceptive opinion spam -> stony brook reviews": {
+      "js_divergence": 0.406699,
+      "vocab_jaccard": 0.526006,
+      "vocab_overlap": 0.473994
+    },
+    "deceptive opinion spam -> trec 2005 email spam": {
+      "js_divergence": 0.613117,
+      "vocab_jaccard": 0.334816,
+      "vocab_overlap": 0.665184
+    },
+    "deceptive opinion spam -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.184634,
+      "vocab_jaccard": 0.691795,
+      "vocab_overlap": 0.308205
+    },
+    "deceptive opinion spam -> ultimate deception": {
+      "js_divergence": 0.531533,
+      "vocab_jaccard": 0.433086,
+      "vocab_overlap": 0.566914
+    },
+    "deceptive opinion spam -> zeng et al 2022 fake news": {
+      "js_divergence": 0.558287,
+      "vocab_jaccard": 0.344824,
+      "vocab_overlap": 0.655176
+    },
+    "deceptive opinion spam -> zeng et al 2022 job scams": {
+      "js_divergence": 0.627503,
+      "vocab_jaccard": 0.382502,
+      "vocab_overlap": 0.617498
+    },
+    "deceptive opinion spam -> zeng et al 2022 phishing": {
+      "js_divergence": 0.5757,
+      "vocab_jaccard": 0.343575,
+      "vocab_overlap": 0.656425
+    },
+    "deceptive opinion spam -> zeng et al 2022 political statements": {
+      "js_divergence": 0.615685,
+      "vocab_jaccard": 0.372824,
+      "vocab_overlap": 0.627176
+    },
+    "deceptive opinion spam -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.453536,
+      "vocab_jaccard": 0.40032,
+      "vocab_overlap": 0.59968
+    },
+    "derev -> fake job postings": {
+      "js_divergence": 0.562437,
+      "vocab_jaccard": 0.757979,
+      "vocab_overlap": 0.242021
+    },
+    "derev -> hippocorpus": {
+      "js_divergence": 0.397463,
+      "vocab_jaccard": 0.797342,
+      "vocab_overlap": 0.202658
+    },
+    "derev -> li et al 2015 doctor": {
+      "js_divergence": 0.482307,
+      "vocab_jaccard": 0.341473,
+      "vocab_overlap": 0.658527
+    },
+    "derev -> li et al 2015 hotel": {
+      "js_divergence": 0.47572,
+      "vocab_jaccard": 0.575188,
+      "vocab_overlap": 0.424812
+    },
+    "derev -> li et al 2015 restaurant": {
+      "js_divergence": 0.488607,
+      "vocab_jaccard": 0.33939,
+      "vocab_overlap": 0.66061
+    },
+    "derev -> nazario trec 2007 email spam": {
+      "js_divergence": 0.531484,
+      "vocab_jaccard": 0.742936,
+      "vocab_overlap": 0.257064
+    },
+    "derev -> negative deceptive opinion spam": {
+      "js_divergence": 0.479527,
+      "vocab_jaccard": 0.507378,
+      "vocab_overlap": 0.492622
+    },
+    "derev -> open domain": {
+      "js_divergence": 0.475994,
+      "vocab_jaccard": 0.503643,
+      "vocab_overlap": 0.496357
+    },
+    "derev -> pops": {
+      "js_divergence": 0.528478,
+      "vocab_jaccard": 0.282021,
+      "vocab_overlap": 0.717979
+    },
+    "derev -> real-life trial": {
+      "js_divergence": 0.525486,
+      "vocab_jaccard": 0.150476,
+      "vocab_overlap": 0.849524
+    },
+    "derev -> stapel science fraud": {
+      "js_divergence": 0.576416,
+      "vocab_jaccard": 0.566391,
+      "vocab_overlap": 0.433609
+    },
+    "derev -> stony brook opinions": {
+      "js_divergence": 0.47214,
+      "vocab_jaccard": 0.570858,
+      "vocab_overlap": 0.429142
+    },
+    "derev -> stony brook reviews": {
+      "js_divergence": 0.469346,
+      "vocab_jaccard": 0.420529,
+      "vocab_overlap": 0.579471
+    },
+    "derev -> trec 2005 email spam": {
+      "js_divergence": 0.537176,
+      "vocab_jaccard": 0.748432,
+      "vocab_overlap": 0.251568
+    },
+    "derev -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.476857,
+      "vocab_jaccard": 0.565629,
+      "vocab_overlap": 0.434371
+    },
+    "derev -> ultimate deception": {
+      "js_divergence": 0.483506,
+      "vocab_jaccard": 0.483229,
+      "vocab_overlap": 0.516771
+    },
+    "derev -> zeng et al 2022 fake news": {
+      "js_divergence": 0.417683,
+      "vocab_jaccard": 0.770189,
+      "vocab_overlap": 0.229811
+    },
+    "derev -> zeng et al 2022 job scams": {
+      "js_divergence": 0.574426,
+      "vocab_jaccard": 0.741279,
+      "vocab_overlap": 0.258721
+    },
+    "derev -> zeng et al 2022 phishing": {
+      "js_divergence": 0.472873,
+      "vocab_jaccard": 0.766487,
+      "vocab_overlap": 0.233513
+    },
+    "derev -> zeng et al 2022 political statements": {
+      "js_divergence": 0.535188,
+      "vocab_jaccard": 0.661011,
+      "vocab_overlap": 0.338989
+    },
+    "derev -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.373642,
+      "vocab_jaccard": 0.803237,
+      "vocab_overlap": 0.196763
+    },
+    "fake job postings -> hippocorpus": {
+      "js_divergence": 0.593726,
+      "vocab_jaccard": 0.808222,
+      "vocab_overlap": 0.191778
+    },
+    "fake job postings -> li et al 2015 doctor": {
+      "js_divergence": 0.620699,
+      "vocab_jaccard": 0.303435,
+      "vocab_overlap": 0.696565
+    },
+    "fake job postings -> li et al 2015 hotel": {
+      "js_divergence": 0.602794,
+      "vocab_jaccard": 0.535669,
+      "vocab_overlap": 0.464331
+    },
+    "fake job postings -> li et al 2015 restaurant": {
+      "js_divergence": 0.624389,
+      "vocab_jaccard": 0.30239,
+      "vocab_overlap": 0.69761
+    },
+    "fake job postings -> nazario trec 2007 email spam": {
+      "js_divergence": 0.562123,
+      "vocab_jaccard": 0.846583,
+      "vocab_overlap": 0.153417
+    },
+    "fake job postings -> negative deceptive opinion spam": {
+      "js_divergence": 0.613672,
+      "vocab_jaccard": 0.466414,
+      "vocab_overlap": 0.533586
+    },
+    "fake job postings -> open domain": {
+      "js_divergence": 0.604711,
+      "vocab_jaccard": 0.468551,
+      "vocab_overlap": 0.531449
+    },
+    "fake job postings -> pops": {
+      "js_divergence": 0.624385,
+      "vocab_jaccard": 0.251631,
+      "vocab_overlap": 0.748369
+    },
+    "fake job postings -> real-life trial": {
+      "js_divergence": 0.691632,
+      "vocab_jaccard": 0.129974,
+      "vocab_overlap": 0.870026
+    },
+    "fake job postings -> stapel science fraud": {
+      "js_divergence": 0.637801,
+      "vocab_jaccard": 0.514168,
+      "vocab_overlap": 0.485832
+    },
+    "fake job postings -> stony brook opinions": {
+      "js_divergence": 0.598812,
+      "vocab_jaccard": 0.50588,
+      "vocab_overlap": 0.49412
+    },
+    "fake job postings -> stony brook reviews": {
+      "js_divergence": 0.607536,
+      "vocab_jaccard": 0.386959,
+      "vocab_overlap": 0.613041
+    },
+    "fake job postings -> trec 2005 email spam": {
+      "js_divergence": 0.534299,
+      "vocab_jaccard": 0.849261,
+      "vocab_overlap": 0.150739
+    },
+    "fake job postings -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.605126,
+      "vocab_jaccard": 0.525131,
+      "vocab_overlap": 0.474869
+    },
+    "fake job postings -> ultimate deception": {
+      "js_divergence": 0.590376,
+      "vocab_jaccard": 0.461891,
+      "vocab_overlap": 0.538109
+    },
+    "fake job postings -> zeng et al 2022 fake news": {
+      "js_divergence": 0.533176,
+      "vocab_jaccard": 0.87722,
+      "vocab_overlap": 0.12278
+    },
+    "fake job postings -> zeng et al 2022 job scams": {
+      "js_divergence": 0.139268,
+      "vocab_jaccard": 0.951958,
+      "vocab_overlap": 0.048042
+    },
+    "fake job postings -> zeng et al 2022 phishing": {
+      "js_divergence": 0.49782,
+      "vocab_jaccard": 0.875991,
+      "vocab_overlap": 0.124009
+    },
+    "fake job postings -> zeng et al 2022 political statements": {
+      "js_divergence": 0.584999,
+      "vocab_jaccard": 0.666123,
+      "vocab_overlap": 0.333877
+    },
+    "fake job postings -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.566347,
+      "vocab_jaccard": 0.824001,
+      "vocab_overlap": 0.175999
+    },
+    "hippocorpus -> li et al 2015 doctor": {
+      "js_divergence": 0.40939,
+      "vocab_jaccard": 0.334304,
+      "vocab_overlap": 0.665696
+    },
+    "hippocorpus -> li et al 2015 hotel": {
+      "js_divergence": 0.385712,
+      "vocab_jaccard": 0.591669,
+      "vocab_overlap": 0.408331
+    },
+    "hippocorpus -> li et al 2015 restaurant": {
+      "js_divergence": 0.411456,
+      "vocab_jaccard": 0.335701,
+      "vocab_overlap": 0.664299
+    },
+    "hippocorpus -> nazario trec 2007 email spam": {
+      "js_divergence": 0.562311,
+      "vocab_jaccard": 0.784376,
+      "vocab_overlap": 0.215624
+    },
+    "hippocorpus -> negative deceptive opinion spam": {
+      "js_divergence": 0.381386,
+      "vocab_jaccard": 0.516129,
+      "vocab_overlap": 0.483871
+    },
+    "hippocorpus -> open domain": {
+      "js_divergence": 0.469403,
+      "vocab_jaccard": 0.510715,
+      "vocab_overlap": 0.489285
+    },
+    "hippocorpus -> pops": {
+      "js_divergence": 0.490874,
+      "vocab_jaccard": 0.275473,
+      "vocab_overlap": 0.724527
+    },
+    "hippocorpus -> real-life trial": {
+      "js_divergence": 0.42934,
+      "vocab_jaccard": 0.144543,
+      "vocab_overlap": 0.855457
+    },
+    "hippocorpus -> stapel science fraud": {
+      "js_divergence": 0.628614,
+      "vocab_jaccard": 0.536955,
+      "vocab_overlap": 0.463045
+    },
+    "hippocorpus -> stony brook opinions": {
+      "js_divergence": 0.513088,
+      "vocab_jaccard": 0.558765,
+      "vocab_overlap": 0.441235
+    },
+    "hippocorpus -> stony brook reviews": {
+      "js_divergence": 0.440287,
+      "vocab_jaccard": 0.423184,
+      "vocab_overlap": 0.576816
+    },
+    "hippocorpus -> trec 2005 email spam": {
+      "js_divergence": 0.563323,
+      "vocab_jaccard": 0.790003,
+      "vocab_overlap": 0.209997
+    },
+    "hippocorpus -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.387665,
+      "vocab_jaccard": 0.581189,
+      "vocab_overlap": 0.418811
+    },
+    "hippocorpus -> ultimate deception": {
+      "js_divergence": 0.42282,
+      "vocab_jaccard": 0.499441,
+      "vocab_overlap": 0.500559
+    },
+    "hippocorpus -> zeng et al 2022 fake news": {
+      "js_divergence": 0.444048,
+      "vocab_jaccard": 0.815134,
+      "vocab_overlap": 0.184866
+    },
+    "hippocorpus -> zeng et al 2022 job scams": {
+      "js_divergence": 0.606403,
+      "vocab_jaccard": 0.794909,
+      "vocab_overlap": 0.205091
+    },
+    "hippocorpus -> zeng et al 2022 phishing": {
+      "js_divergence": 0.509183,
+      "vocab_jaccard": 0.811621,
+      "vocab_overlap": 0.188379
+    },
+    "hippocorpus -> zeng et al 2022 political statements": {
+      "js_divergence": 0.541774,
+      "vocab_jaccard": 0.689731,
+      "vocab_overlap": 0.310269
+    },
+    "hippocorpus -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.368521,
+      "vocab_jaccard": 0.835909,
+      "vocab_overlap": 0.164091
+    },
+    "li et al 2015 doctor -> li et al 2015 hotel": {
+      "js_divergence": 0.481,
+      "vocab_jaccard": 0.41718,
+      "vocab_overlap": 0.58282
+    },
+    "li et al 2015 doctor -> li et al 2015 restaurant": {
+      "js_divergence": 0.489287,
+      "vocab_jaccard": 0.418475,
+      "vocab_overlap": 0.581525
+    },
+    "li et al 2015 doctor -> nazario trec 2007 email spam": {
+      "js_divergence": 0.624274,
+      "vocab_jaccard": 0.272521,
+      "vocab_overlap": 0.727479
+    },
+    "li et al 2015 doctor -> negative deceptive opinion spam": {
+      "js_divergence": 0.490911,
+      "vocab_jaccard": 0.42804,
+      "vocab_overlap": 0.57196
+    },
+    "li et al 2015 doctor -> open domain": {
+      "js_divergence": 0.560937,
+      "vocab_jaccard": 0.361574,
+      "vocab_overlap": 0.638426
+    },
+    "li et al 2015 doctor -> pops": {
+      "js_divergence": 0.519135,
+      "vocab_jaccard": 0.393204,
+      "vocab_overlap": 0.606796
+    },
+    "li et al 2015 doctor -> real-life trial": {
+      "js_divergence": 0.516691,
+      "vocab_jaccard": 0.254403,
+      "vocab_overlap": 0.745597
+    },
+    "li et al 2015 doctor -> stapel science fraud": {
+      "js_divergence": 0.654842,
+      "vocab_jaccard": 0.375349,
+      "vocab_overlap": 0.624651
+    },
+    "li et al 2015 doctor -> stony brook opinions": {
+      "js_divergence": 0.577004,
+      "vocab_jaccard": 0.380185,
+      "vocab_overlap": 0.619815
+    },
+    "li et al 2015 doctor -> stony brook reviews": {
+      "js_divergence": 0.486726,
+      "vocab_jaccard": 0.416647,
+      "vocab_overlap": 0.583353
+    },
+    "li et al 2015 doctor -> trec 2005 email spam": {
+      "js_divergence": 0.619154,
+      "vocab_jaccard": 0.274758,
+      "vocab_overlap": 0.725242
+    },
+    "li et al 2015 doctor -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.482871,
+      "vocab_jaccard": 0.41834,
+      "vocab_overlap": 0.58166
+    },
+    "li et al 2015 doctor -> ultimate deception": {
+      "js_divergence": 0.504578,
+      "vocab_jaccard": 0.403545,
+      "vocab_overlap": 0.596455
+    },
+    "li et al 2015 doctor -> zeng et al 2022 fake news": {
+      "js_divergence": 0.546083,
+      "vocab_jaccard": 0.278712,
+      "vocab_overlap": 0.721288
+    },
+    "li et al 2015 doctor -> zeng et al 2022 job scams": {
+      "js_divergence": 0.629326,
+      "vocab_jaccard": 0.313212,
+      "vocab_overlap": 0.686788
+    },
+    "li et al 2015 doctor -> zeng et al 2022 phishing": {
+      "js_divergence": 0.575999,
+      "vocab_jaccard": 0.277703,
+      "vocab_overlap": 0.722297
+    },
+    "li et al 2015 doctor -> zeng et al 2022 political statements": {
+      "js_divergence": 0.615028,
+      "vocab_jaccard": 0.320531,
+      "vocab_overlap": 0.679469
+    },
+    "li et al 2015 doctor -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.471849,
+      "vocab_jaccard": 0.325931,
+      "vocab_overlap": 0.674069
+    },
+    "li et al 2015 hotel -> li et al 2015 restaurant": {
+      "js_divergence": 0.35818,
+      "vocab_jaccard": 0.456012,
+      "vocab_overlap": 0.543988
+    },
+    "li et al 2015 hotel -> nazario trec 2007 email spam": {
+      "js_divergence": 0.591201,
+      "vocab_jaccard": 0.489621,
+      "vocab_overlap": 0.510379
+    },
+    "li et al 2015 hotel -> negative deceptive opinion spam": {
+      "js_divergence": 0.128007,
+      "vocab_jaccard": 0.860754,
+      "vocab_overlap": 0.139246
+    },
+    "li et al 2015 hotel -> open domain": {
+      "js_divergence": 0.525714,
+      "vocab_jaccard": 0.495551,
+      "vocab_overlap": 0.504449
+    },
+    "li et al 2015 hotel -> pops": {
+      "js_divergence": 0.278277,
+      "vocab_jaccard": 0.420568,
+      "vocab_overlap": 0.579432
+    },
+    "li et al 2015 hotel -> real-life trial": {
+      "js_divergence": 0.525718,
+      "vocab_jaccard": 0.194762,
+      "vocab_overlap": 0.805238
+    },
+    "li et al 2015 hotel -> stapel science fraud": {
+      "js_divergence": 0.63578,
+      "vocab_jaccard": 0.487767,
+      "vocab_overlap": 0.512233
+    },
+    "li et al 2015 hotel -> stony brook opinions": {
+      "js_divergence": 0.56264,
+      "vocab_jaccard": 0.50031,
+      "vocab_overlap": 0.49969
+    },
+    "li et al 2015 hotel -> stony brook reviews": {
+      "js_divergence": 0.401736,
+      "vocab_jaccard": 0.523592,
+      "vocab_overlap": 0.476408
+    },
+    "li et al 2015 hotel -> trec 2005 email spam": {
+      "js_divergence": 0.581801,
+      "vocab_jaccard": 0.493608,
+      "vocab_overlap": 0.506392
+    },
+    "li et al 2015 hotel -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.031564,
+      "vocab_jaccard": 0.979001,
+      "vocab_overlap": 0.020999
+    },
+    "li et al 2015 hotel -> ultimate deception": {
+      "js_divergence": 0.463492,
+      "vocab_jaccard": 0.526642,
+      "vocab_overlap": 0.473358
+    },
+    "li et al 2015 hotel -> zeng et al 2022 fake news": {
+      "js_divergence": 0.512654,
+      "vocab_jaccard": 0.509032,
+      "vocab_overlap": 0.490968
+    },
+    "li et al 2015 hotel -> zeng et al 2022 job scams": {
+      "js_divergence": 0.61285,
+      "vocab_jaccard": 0.540595,
+      "vocab_overlap": 0.459405
+    },
+    "li et al 2015 hotel -> zeng et al 2022 phishing": {
+      "js_divergence": 0.535521,
+      "vocab_jaccard": 0.507034,
+      "vocab_overlap": 0.492966
+    },
+    "li et al 2015 hotel -> zeng et al 2022 political statements": {
+      "js_divergence": 0.582296,
+      "vocab_jaccard": 0.505609,
+      "vocab_overlap": 0.494391
+    },
+    "li et al 2015 hotel -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.407828,
+      "vocab_jaccard": 0.580429,
+      "vocab_overlap": 0.419571
+    },
+    "li et al 2015 restaurant -> nazario trec 2007 email spam": {
+      "js_divergence": 0.62034,
+      "vocab_jaccard": 0.270284,
+      "vocab_overlap": 0.729716
+    },
+    "li et al 2015 restaurant -> negative deceptive opinion spam": {
+      "js_divergence": 0.38945,
+      "vocab_jaccard": 0.469636,
+      "vocab_overlap": 0.530364
+    },
+    "li et al 2015 restaurant -> open domain": {
+      "js_divergence": 0.542406,
+      "vocab_jaccard": 0.38644,
+      "vocab_overlap": 0.61356
+    },
+    "li et al 2015 restaurant -> pops": {
+      "js_divergence": 0.398337,
+      "vocab_jaccard": 0.484756,
+      "vocab_overlap": 0.515244
+    },
+    "li et al 2015 restaurant -> real-life trial": {
+      "js_divergence": 0.538237,
+      "vocab_jaccard": 0.24376,
+      "vocab_overlap": 0.75624
+    },
+    "li et al 2015 restaurant -> stapel science fraud": {
+      "js_divergence": 0.650162,
+      "vocab_jaccard": 0.34292,
+      "vocab_overlap": 0.65708
+    },
+    "li et al 2015 restaurant -> stony brook opinions": {
+      "js_divergence": 0.579512,
+      "vocab_jaccard": 0.354686,
+      "vocab_overlap": 0.645314
+    },
+    "li et al 2015 restaurant -> stony brook reviews": {
+      "js_divergence": 0.284612,
+      "vocab_jaccard": 0.543775,
+      "vocab_overlap": 0.456225
+    },
+    "li et al 2015 restaurant -> trec 2005 email spam": {
+      "js_divergence": 0.616732,
+      "vocab_jaccard": 0.272501,
+      "vocab_overlap": 0.727499
+    },
+    "li et al 2015 restaurant -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.361165,
+      "vocab_jaccard": 0.458927,
+      "vocab_overlap": 0.541073
+    },
+    "li et al 2015 restaurant -> ultimate deception": {
+      "js_divergence": 0.515349,
+      "vocab_jaccard": 0.373453,
+      "vocab_overlap": 0.626547
+    },
+    "li et al 2015 restaurant -> zeng et al 2022 fake news": {
+      "js_divergence": 0.548047,
+      "vocab_jaccard": 0.277778,
+      "vocab_overlap": 0.722222
+    },
+    "li et al 2015 restaurant -> zeng et al 2022 job scams": {
+      "js_divergence": 0.635118,
+      "vocab_jaccard": 0.309898,
+      "vocab_overlap": 0.690102
+    },
+    "li et al 2015 restaurant -> zeng et al 2022 phishing": {
+      "js_divergence": 0.575507,
+      "vocab_jaccard": 0.276772,
+      "vocab_overlap": 0.723228
+    },
+    "li et al 2015 restaurant -> zeng et al 2022 political statements": {
+      "js_divergence": 0.613442,
+      "vocab_jaccard": 0.312674,
+      "vocab_overlap": 0.687326
+    },
+    "li et al 2015 restaurant -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.434283,
+      "vocab_jaccard": 0.325966,
+      "vocab_overlap": 0.674034
+    },
+    "nazario trec 2007 email spam -> negative deceptive opinion spam": {
+      "js_divergence": 0.591153,
+      "vocab_jaccard": 0.422104,
+      "vocab_overlap": 0.577896
+    },
+    "nazario trec 2007 email spam -> open domain": {
+      "js_divergence": 0.5806,
+      "vocab_jaccard": 0.432767,
+      "vocab_overlap": 0.567233
+    },
+    "nazario trec 2007 email spam -> pops": {
+      "js_divergence": 0.641915,
+      "vocab_jaccard": 0.223128,
+      "vocab_overlap": 0.776872
+    },
+    "nazario trec 2007 email spam -> real-life trial": {
+      "js_divergence": 0.659382,
+      "vocab_jaccard": 0.119338,
+      "vocab_overlap": 0.880662
+    },
+    "nazario trec 2007 email spam -> stapel science fraud": {
+      "js_divergence": 0.652011,
+      "vocab_jaccard": 0.466265,
+      "vocab_overlap": 0.533735
+    },
+    "nazario trec 2007 email spam -> stony brook opinions": {
+      "js_divergence": 0.595134,
+      "vocab_jaccard": 0.484365,
+      "vocab_overlap": 0.515635
+    },
+    "nazario trec 2007 email spam -> stony brook reviews": {
+      "js_divergence": 0.604088,
+      "vocab_jaccard": 0.348861,
+      "vocab_overlap": 0.651139
+    },
+    "nazario trec 2007 email spam -> trec 2005 email spam": {
+      "js_divergence": 0.360388,
+      "vocab_jaccard": 0.975062,
+      "vocab_overlap": 0.024938
+    },
+    "nazario trec 2007 email spam -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.592537,
+      "vocab_jaccard": 0.479088,
+      "vocab_overlap": 0.520912
+    },
+    "nazario trec 2007 email spam -> ultimate deception": {
+      "js_divergence": 0.564654,
+      "vocab_jaccard": 0.416692,
+      "vocab_overlap": 0.583308
+    },
+    "nazario trec 2007 email spam -> zeng et al 2022 fake news": {
+      "js_divergence": 0.496842,
+      "vocab_jaccard": 0.944758,
+      "vocab_overlap": 0.055242
+    },
+    "nazario trec 2007 email spam -> zeng et al 2022 job scams": {
+      "js_divergence": 0.570189,
+      "vocab_jaccard": 0.808508,
+      "vocab_overlap": 0.191492
+    },
+    "nazario trec 2007 email spam -> zeng et al 2022 phishing": {
+      "js_divergence": 0.447995,
+      "vocab_jaccard": 0.94652,
+      "vocab_overlap": 0.05348
+    },
+    "nazario trec 2007 email spam -> zeng et al 2022 political statements": {
+      "js_divergence": 0.580428,
+      "vocab_jaccard": 0.668325,
+      "vocab_overlap": 0.331675
+    },
+    "nazario trec 2007 email spam -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.522836,
+      "vocab_jaccard": 0.803806,
+      "vocab_overlap": 0.196194
+    },
+    "negative deceptive opinion spam -> open domain": {
+      "js_divergence": 0.531401,
+      "vocab_jaccard": 0.469447,
+      "vocab_overlap": 0.530553
+    },
+    "negative deceptive opinion spam -> pops": {
+      "js_divergence": 0.355269,
+      "vocab_jaccard": 0.446247,
+      "vocab_overlap": 0.553753
+    },
+    "negative deceptive opinion spam -> real-life trial": {
+      "js_divergence": 0.51147,
+      "vocab_jaccard": 0.214801,
+      "vocab_overlap": 0.785199
+    },
+    "negative deceptive opinion spam -> stapel science fraud": {
+      "js_divergence": 0.63317,
+      "vocab_jaccard": 0.459526,
+      "vocab_overlap": 0.540474
+    },
+    "negative deceptive opinion spam -> stony brook opinions": {
+      "js_divergence": 0.558761,
+      "vocab_jaccard": 0.478297,
+      "vocab_overlap": 0.521703
+    },
+    "negative deceptive opinion spam -> stony brook reviews": {
+      "js_divergence": 0.433464,
+      "vocab_jaccard": 0.510865,
+      "vocab_overlap": 0.489135
+    },
+    "negative deceptive opinion spam -> trec 2005 email spam": {
+      "js_divergence": 0.582724,
+      "vocab_jaccard": 0.425547,
+      "vocab_overlap": 0.574453
+    },
+    "negative deceptive opinion spam -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.123676,
+      "vocab_jaccard": 0.879217,
+      "vocab_overlap": 0.120783
+    },
+    "negative deceptive opinion spam -> ultimate deception": {
+      "js_divergence": 0.440505,
+      "vocab_jaccard": 0.520751,
+      "vocab_overlap": 0.479249
+    },
+    "negative deceptive opinion spam -> zeng et al 2022 fake news": {
+      "js_divergence": 0.507591,
+      "vocab_jaccard": 0.438272,
+      "vocab_overlap": 0.561728
+    },
+    "negative deceptive opinion spam -> zeng et al 2022 job scams": {
+      "js_divergence": 0.62268,
+      "vocab_jaccard": 0.473208,
+      "vocab_overlap": 0.526792
+    },
+    "negative deceptive opinion spam -> zeng et al 2022 phishing": {
+      "js_divergence": 0.533449,
+      "vocab_jaccard": 0.436537,
+      "vocab_overlap": 0.563463
+    },
+    "negative deceptive opinion spam -> zeng et al 2022 political statements": {
+      "js_divergence": 0.578049,
+      "vocab_jaccard": 0.455641,
+      "vocab_overlap": 0.544359
+    },
+    "negative deceptive opinion spam -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.411545,
+      "vocab_jaccard": 0.505084,
+      "vocab_overlap": 0.494916
+    },
+    "open domain -> pops": {
+      "js_divergence": 0.57736,
+      "vocab_jaccard": 0.318402,
+      "vocab_overlap": 0.681598
+    },
+    "open domain -> real-life trial": {
+      "js_divergence": 0.604126,
+      "vocab_jaccard": 0.198736,
+      "vocab_overlap": 0.801264
+    },
+    "open domain -> stapel science fraud": {
+      "js_divergence": 0.652705,
+      "vocab_jaccard": 0.421028,
+      "vocab_overlap": 0.578972
+    },
+    "open domain -> stony brook opinions": {
+      "js_divergence": 0.531551,
+      "vocab_jaccard": 0.463838,
+      "vocab_overlap": 0.536162
+    },
+    "open domain -> stony brook reviews": {
+      "js_divergence": 0.50662,
+      "vocab_jaccard": 0.445727,
+      "vocab_overlap": 0.554273
+    },
+    "open domain -> trec 2005 email spam": {
+      "js_divergence": 0.577654,
+      "vocab_jaccard": 0.43585,
+      "vocab_overlap": 0.56415
+    },
+    "open domain -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.527095,
+      "vocab_jaccard": 0.492896,
+      "vocab_overlap": 0.507104
+    },
+    "open domain -> ultimate deception": {
+      "js_divergence": 0.535962,
+      "vocab_jaccard": 0.433725,
+      "vocab_overlap": 0.566275
+    },
+    "open domain -> zeng et al 2022 fake news": {
+      "js_divergence": 0.474227,
+      "vocab_jaccard": 0.450571,
+      "vocab_overlap": 0.549429
+    },
+    "open domain -> zeng et al 2022 job scams": {
+      "js_divergence": 0.621621,
+      "vocab_jaccard": 0.469467,
+      "vocab_overlap": 0.530533
+    },
+    "open domain -> zeng et al 2022 phishing": {
+      "js_divergence": 0.521553,
+      "vocab_jaccard": 0.448939,
+      "vocab_overlap": 0.551061
+    },
+    "open domain -> zeng et al 2022 political statements": {
+      "js_divergence": 0.502552,
+      "vocab_jaccard": 0.496901,
+      "vocab_overlap": 0.503099
+    },
+    "open domain -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.462574,
+      "vocab_jaccard": 0.502665,
+      "vocab_overlap": 0.497335
+    },
+    "pops -> real-life trial": {
+      "js_divergence": 0.585151,
+      "vocab_jaccard": 0.258246,
+      "vocab_overlap": 0.741754
+    },
+    "pops -> stapel science fraud": {
+      "js_divergence": 0.667146,
+      "vocab_jaccard": 0.313905,
+      "vocab_overlap": 0.686095
+    },
+    "pops -> stony brook opinions": {
+      "js_divergence": 0.599379,
+      "vocab_jaccard": 0.312229,
+      "vocab_overlap": 0.687771
+    },
+    "pops -> stony brook reviews": {
+      "js_divergence": 0.408764,
+      "vocab_jaccard": 0.464183,
+      "vocab_overlap": 0.535817
+    },
+    "pops -> trec 2005 email spam": {
+      "js_divergence": 0.632521,
+      "vocab_jaccard": 0.224961,
+      "vocab_overlap": 0.775039
+    },
+    "pops -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.278646,
+      "vocab_jaccard": 0.425922,
+      "vocab_overlap": 0.574078
+    },
+    "pops -> ultimate deception": {
+      "js_divergence": 0.560784,
+      "vocab_jaccard": 0.338841,
+      "vocab_overlap": 0.661159
+    },
+    "pops -> zeng et al 2022 fake news": {
+      "js_divergence": 0.585734,
+      "vocab_jaccard": 0.227934,
+      "vocab_overlap": 0.772066
+    },
+    "pops -> zeng et al 2022 job scams": {
+      "js_divergence": 0.633559,
+      "vocab_jaccard": 0.260356,
+      "vocab_overlap": 0.739644
+    },
+    "pops -> zeng et al 2022 phishing": {
+      "js_divergence": 0.599848,
+      "vocab_jaccard": 0.227108,
+      "vocab_overlap": 0.772892
+    },
+    "pops -> zeng et al 2022 political statements": {
+      "js_divergence": 0.637712,
+      "vocab_jaccard": 0.260863,
+      "vocab_overlap": 0.739137
+    },
+    "pops -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.478677,
+      "vocab_jaccard": 0.267952,
+      "vocab_overlap": 0.732048
+    },
+    "real-life trial -> stapel science fraud": {
+      "js_divergence": 0.680748,
+      "vocab_jaccard": 0.186526,
+      "vocab_overlap": 0.813474
+    },
+    "real-life trial -> stony brook opinions": {
+      "js_divergence": 0.578255,
+      "vocab_jaccard": 0.197456,
+      "vocab_overlap": 0.802544
+    },
+    "real-life trial -> stony brook reviews": {
+      "js_divergence": 0.550454,
+      "vocab_jaccard": 0.22838,
+      "vocab_overlap": 0.77162
+    },
+    "real-life trial -> trec 2005 email spam": {
+      "js_divergence": 0.66143,
+      "vocab_jaccard": 0.120204,
+      "vocab_overlap": 0.879796
+    },
+    "real-life trial -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.525919,
+      "vocab_jaccard": 0.197831,
+      "vocab_overlap": 0.802169
+    },
+    "real-life trial -> ultimate deception": {
+      "js_divergence": 0.515229,
+      "vocab_jaccard": 0.212285,
+      "vocab_overlap": 0.787715
+    },
+    "real-life trial -> zeng et al 2022 fake news": {
+      "js_divergence": 0.565017,
+      "vocab_jaccard": 0.120665,
+      "vocab_overlap": 0.879335
+    },
+    "real-life trial -> zeng et al 2022 job scams": {
+      "js_divergence": 0.69892,
+      "vocab_jaccard": 0.13202,
+      "vocab_overlap": 0.86798
+    },
+    "real-life trial -> zeng et al 2022 phishing": {
+      "js_divergence": 0.615273,
+      "vocab_jaccard": 0.120228,
+      "vocab_overlap": 0.879772
+    },
+    "real-life trial -> zeng et al 2022 political statements": {
+      "js_divergence": 0.633975,
+      "vocab_jaccard": 0.156245,
+      "vocab_overlap": 0.843755
+    },
+    "real-life trial -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.518529,
+      "vocab_jaccard": 0.140702,
+      "vocab_overlap": 0.859298
+    },
+    "stapel science fraud -> stony brook opinions": {
+      "js_divergence": 0.600569,
+      "vocab_jaccard": 0.524545,
+      "vocab_overlap": 0.475455
+    },
+    "stapel science fraud -> stony brook reviews": {
+      "js_divergence": 0.650557,
+      "vocab_jaccard": 0.398417,
+      "vocab_overlap": 0.601583
+    },
+    "stapel science fraud -> trec 2005 email spam": {
+      "js_divergence": 0.647039,
+      "vocab_jaccard": 0.469904,
+      "vocab_overlap": 0.530096
+    },
+    "stapel science fraud -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.636687,
+      "vocab_jaccard": 0.484924,
+      "vocab_overlap": 0.515076
+    },
+    "stapel science fraud -> ultimate deception": {
+      "js_divergence": 0.626783,
+      "vocab_jaccard": 0.454768,
+      "vocab_overlap": 0.545232
+    },
+    "stapel science fraud -> zeng et al 2022 fake news": {
+      "js_divergence": 0.576988,
+      "vocab_jaccard": 0.488061,
+      "vocab_overlap": 0.511939
+    },
+    "stapel science fraud -> zeng et al 2022 job scams": {
+      "js_divergence": 0.645275,
+      "vocab_jaccard": 0.519088,
+      "vocab_overlap": 0.480912
+    },
+    "stapel science fraud -> zeng et al 2022 phishing": {
+      "js_divergence": 0.591689,
+      "vocab_jaccard": 0.485986,
+      "vocab_overlap": 0.514014
+    },
+    "stapel science fraud -> zeng et al 2022 political statements": {
+      "js_divergence": 0.634761,
+      "vocab_jaccard": 0.485307,
+      "vocab_overlap": 0.514693
+    },
+    "stapel science fraud -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.610241,
+      "vocab_jaccard": 0.542467,
+      "vocab_overlap": 0.457533
+    },
+    "stony brook opinions -> stony brook reviews": {
+      "js_divergence": 0.550685,
+      "vocab_jaccard": 0.412444,
+      "vocab_overlap": 0.587556
+    },
+    "stony brook opinions -> trec 2005 email spam": {
+      "js_divergence": 0.594912,
+      "vocab_jaccard": 0.487408,
+      "vocab_overlap": 0.512592
+    },
+    "stony brook opinions -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.564344,
+      "vocab_jaccard": 0.496638,
+      "vocab_overlap": 0.503362
+    },
+    "stony brook opinions -> ultimate deception": {
+      "js_divergence": 0.523044,
+      "vocab_jaccard": 0.493344,
+      "vocab_overlap": 0.506656
+    },
+    "stony brook opinions -> zeng et al 2022 fake news": {
+      "js_divergence": 0.480668,
+      "vocab_jaccard": 0.495223,
+      "vocab_overlap": 0.504777
+    },
+    "stony brook opinions -> zeng et al 2022 job scams": {
+      "js_divergence": 0.610107,
+      "vocab_jaccard": 0.505185,
+      "vocab_overlap": 0.494815
+    },
+    "stony brook opinions -> zeng et al 2022 phishing": {
+      "js_divergence": 0.532868,
+      "vocab_jaccard": 0.49343,
+      "vocab_overlap": 0.50657
+    },
+    "stony brook opinions -> zeng et al 2022 political statements": {
+      "js_divergence": 0.532685,
+      "vocab_jaccard": 0.540515,
+      "vocab_overlap": 0.459485
+    },
+    "stony brook opinions -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.503508,
+      "vocab_jaccard": 0.540206,
+      "vocab_overlap": 0.459794
+    },
+    "stony brook reviews -> trec 2005 email spam": {
+      "js_divergence": 0.602692,
+      "vocab_jaccard": 0.351304,
+      "vocab_overlap": 0.648696
+    },
+    "stony brook reviews -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.405158,
+      "vocab_jaccard": 0.522013,
+      "vocab_overlap": 0.477987
+    },
+    "stony brook reviews -> ultimate deception": {
+      "js_divergence": 0.511918,
+      "vocab_jaccard": 0.423881,
+      "vocab_overlap": 0.576119
+    },
+    "stony brook reviews -> zeng et al 2022 fake news": {
+      "js_divergence": 0.540979,
+      "vocab_jaccard": 0.355763,
+      "vocab_overlap": 0.644237
+    },
+    "stony brook reviews -> zeng et al 2022 job scams": {
+      "js_divergence": 0.618457,
+      "vocab_jaccard": 0.395035,
+      "vocab_overlap": 0.604965
+    },
+    "stony brook reviews -> zeng et al 2022 phishing": {
+      "js_divergence": 0.56068,
+      "vocab_jaccard": 0.354475,
+      "vocab_overlap": 0.645525
+    },
+    "stony brook reviews -> zeng et al 2022 political statements": {
+      "js_divergence": 0.605158,
+      "vocab_jaccard": 0.389048,
+      "vocab_overlap": 0.610952
+    },
+    "stony brook reviews -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.407532,
+      "vocab_jaccard": 0.415025,
+      "vocab_overlap": 0.584975
+    },
+    "trec 2005 email spam -> tripadvisor deceptive opinion": {
+      "js_divergence": 0.583402,
+      "vocab_jaccard": 0.48299,
+      "vocab_overlap": 0.51701
+    },
+    "trec 2005 email spam -> ultimate deception": {
+      "js_divergence": 0.539295,
+      "vocab_jaccard": 0.41979,
+      "vocab_overlap": 0.58021
+    },
+    "trec 2005 email spam -> zeng et al 2022 fake news": {
+      "js_divergence": 0.467426,
+      "vocab_jaccard": 0.94779,
+      "vocab_overlap": 0.05221
+    },
+    "trec 2005 email spam -> zeng et al 2022 job scams": {
+      "js_divergence": 0.539649,
+      "vocab_jaccard": 0.812264,
+      "vocab_overlap": 0.187736
+    },
+    "trec 2005 email spam -> zeng et al 2022 phishing": {
+      "js_divergence": 0.393661,
+      "vocab_jaccard": 0.95035,
+      "vocab_overlap": 0.04965
+    },
+    "trec 2005 email spam -> zeng et al 2022 political statements": {
+      "js_divergence": 0.547146,
+      "vocab_jaccard": 0.672872,
+      "vocab_overlap": 0.327128
+    },
+    "trec 2005 email spam -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.537673,
+      "vocab_jaccard": 0.809021,
+      "vocab_overlap": 0.190979
+    },
+    "tripadvisor deceptive opinion -> ultimate deception": {
+      "js_divergence": 0.464487,
+      "vocab_jaccard": 0.527297,
+      "vocab_overlap": 0.472703
+    },
+    "tripadvisor deceptive opinion -> zeng et al 2022 fake news": {
+      "js_divergence": 0.513804,
+      "vocab_jaccard": 0.498339,
+      "vocab_overlap": 0.501661
+    },
+    "tripadvisor deceptive opinion -> zeng et al 2022 job scams": {
+      "js_divergence": 0.615171,
+      "vocab_jaccard": 0.529704,
+      "vocab_overlap": 0.470296
+    },
+    "tripadvisor deceptive opinion -> zeng et al 2022 phishing": {
+      "js_divergence": 0.537162,
+      "vocab_jaccard": 0.496535,
+      "vocab_overlap": 0.503465
+    },
+    "tripadvisor deceptive opinion -> zeng et al 2022 political statements": {
+      "js_divergence": 0.583246,
+      "vocab_jaccard": 0.498705,
+      "vocab_overlap": 0.501295
+    },
+    "tripadvisor deceptive opinion -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.4081,
+      "vocab_jaccard": 0.569216,
+      "vocab_overlap": 0.430784
+    },
+    "ultimate deception -> zeng et al 2022 fake news": {
+      "js_divergence": 0.471654,
+      "vocab_jaccard": 0.43676,
+      "vocab_overlap": 0.56324
+    },
+    "ultimate deception -> zeng et al 2022 job scams": {
+      "js_divergence": 0.598725,
+      "vocab_jaccard": 0.467458,
+      "vocab_overlap": 0.532542
+    },
+    "ultimate deception -> zeng et al 2022 phishing": {
+      "js_divergence": 0.466581,
+      "vocab_jaccard": 0.43503,
+      "vocab_overlap": 0.56497
+    },
+    "ultimate deception -> zeng et al 2022 political statements": {
+      "js_divergence": 0.527948,
+      "vocab_jaccard": 0.485386,
+      "vocab_overlap": 0.514614
+    },
+    "ultimate deception -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.454736,
+      "vocab_jaccard": 0.483855,
+      "vocab_overlap": 0.516145
+    },
+    "zeng et al 2022 fake news -> zeng et al 2022 job scams": {
+      "js_divergence": 0.544259,
+      "vocab_jaccard": 0.838676,
+      "vocab_overlap": 0.161324
+    },
+    "zeng et al 2022 fake news -> zeng et al 2022 phishing": {
+      "js_divergence": 0.349977,
+      "vocab_jaccard": 0.981413,
+      "vocab_overlap": 0.018587
+    },
+    "zeng et al 2022 fake news -> zeng et al 2022 political statements": {
+      "js_divergence": 0.356166,
+      "vocab_jaccard": 0.703115,
+      "vocab_overlap": 0.296885
+    },
+    "zeng et al 2022 fake news -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.466219,
+      "vocab_jaccard": 0.834716,
+      "vocab_overlap": 0.165284
+    },
+    "zeng et al 2022 job scams -> zeng et al 2022 phishing": {
+      "js_divergence": 0.505464,
+      "vocab_jaccard": 0.837166,
+      "vocab_overlap": 0.162834
+    },
+    "zeng et al 2022 job scams -> zeng et al 2022 political statements": {
+      "js_divergence": 0.600549,
+      "vocab_jaccard": 0.65348,
+      "vocab_overlap": 0.34652
+    },
+    "zeng et al 2022 job scams -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.575658,
+      "vocab_jaccard": 0.805166,
+      "vocab_overlap": 0.194834
+    },
+    "zeng et al 2022 phishing -> zeng et al 2022 political statements": {
+      "js_divergence": 0.462409,
+      "vocab_jaccard": 0.699514,
+      "vocab_overlap": 0.300486
+    },
+    "zeng et al 2022 phishing -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.479998,
+      "vocab_jaccard": 0.832834,
+      "vocab_overlap": 0.167166
+    },
+    "zeng et al 2022 political statements -> zeng et al 2022 product reviews": {
+      "js_divergence": 0.556055,
+      "vocab_jaccard": 0.673246,
+      "vocab_overlap": 0.326754
+    }
+  }
+}
